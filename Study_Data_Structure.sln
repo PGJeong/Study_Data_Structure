@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array - Polynomial Operations", "Array - Polynomial Operations\Array - Polynomial Operations.vcxproj", "{C8F1695B-D3E0-4467-861E-ED22962DD8B5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack - Generic Stack", "Stack - Generic Stack\Stack - Generic Stack.vcxproj", "{9B14208C-E0FF-49A5-AC7D-FD8DB00AE57B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Queue - Implementation of Queue using Stacks", "Queue - Implementation of Queue using Stacks\Queue - Implementation of Queue using Stacks.vcxproj", "{2F478E75-59EC-49E7-A4F0-849EC05B60FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8F1695B-D3E0-4467-861E-ED22962DD8B5}.Debug|x64.ActiveCfg = Debug|x64
+		{C8F1695B-D3E0-4467-861E-ED22962DD8B5}.Debug|x64.Build.0 = Debug|x64
+		{C8F1695B-D3E0-4467-861E-ED22962DD8B5}.Debug|x86.ActiveCfg = Debug|Win32
+		{C8F1695B-D3E0-4467-861E-ED22962DD8B5}.Debug|x86.Build.0 = Debug|Win32
+		{C8F1695B-D3E0-4467-861E-ED22962DD8B5}.Release|x64.ActiveCfg = Release|x64
+		{C8F1695B-D3E0-4467-861E-ED22962DD8B5}.Release|x64.Build.0 = Release|x64
+		{C8F1695B-D3E0-4467-861E-ED22962DD8B5}.Release|x86.ActiveCfg = Release|Win32
+		{C8F1695B-D3E0-4467-861E-ED22962DD8B5}.Release|x86.Build.0 = Release|Win32
+		{9B14208C-E0FF-49A5-AC7D-FD8DB00AE57B}.Debug|x64.ActiveCfg = Debug|x64
+		{9B14208C-E0FF-49A5-AC7D-FD8DB00AE57B}.Debug|x64.Build.0 = Debug|x64
+		{9B14208C-E0FF-49A5-AC7D-FD8DB00AE57B}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B14208C-E0FF-49A5-AC7D-FD8DB00AE57B}.Debug|x86.Build.0 = Debug|Win32
+		{9B14208C-E0FF-49A5-AC7D-FD8DB00AE57B}.Release|x64.ActiveCfg = Release|x64
+		{9B14208C-E0FF-49A5-AC7D-FD8DB00AE57B}.Release|x64.Build.0 = Release|x64
+		{9B14208C-E0FF-49A5-AC7D-FD8DB00AE57B}.Release|x86.ActiveCfg = Release|Win32
+		{9B14208C-E0FF-49A5-AC7D-FD8DB00AE57B}.Release|x86.Build.0 = Release|Win32
+		{2F478E75-59EC-49E7-A4F0-849EC05B60FA}.Debug|x64.ActiveCfg = Debug|x64
+		{2F478E75-59EC-49E7-A4F0-849EC05B60FA}.Debug|x64.Build.0 = Debug|x64
+		{2F478E75-59EC-49E7-A4F0-849EC05B60FA}.Debug|x86.ActiveCfg = Debug|Win32
+		{2F478E75-59EC-49E7-A4F0-849EC05B60FA}.Debug|x86.Build.0 = Debug|Win32
+		{2F478E75-59EC-49E7-A4F0-849EC05B60FA}.Release|x64.ActiveCfg = Release|x64
+		{2F478E75-59EC-49E7-A4F0-849EC05B60FA}.Release|x64.Build.0 = Release|x64
+		{2F478E75-59EC-49E7-A4F0-849EC05B60FA}.Release|x86.ActiveCfg = Release|Win32
+		{2F478E75-59EC-49E7-A4F0-849EC05B60FA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AA3FAE1-0A31-42FE-BEBE-DB645E48F449}
+	EndGlobalSection
+EndGlobal
