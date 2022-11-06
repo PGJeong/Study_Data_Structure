@@ -168,12 +168,73 @@ public:
 		Node* temp = head;
 
 		for (int i = 0; i < length; i++) {
-			cout << "[" << i << "]\t" << temp->data << endl;
+			if(temp->link != NULL)
+				cout << "[" << i << "]\t" << temp->data << "\t(Link -> " << temp->link->data << ")" << endl;
+			else
+				cout << "[" << i << "]\t" << temp->data << "\t(Link -> NULL)" << endl;
 			temp = temp->link;
 		}
+	}
+
+	bool hasCycle() { // Linked List에 Cycle의 존재여부 리턴
+		Node* fast = head; // 2칸씩 앞으로
+		Node* slow = head; // 1칸씩 앞으로
+
+		// Cycle이 있는 경우 2개의 포인터는 Cycle 안에서 반드시 만난다
+		// Cycle이 없는 경우 fast가 먼저 리스트의 끝에 도달
+		// fast는 2칸씩 앞으로 이동하므로 fast->link도 NULL이 아니어야 한다
+
+		while (fast != NULL && fast->link != NULL) {
+			slow = slow->link;
+			fast = fast->link->link;
+
+			if (fast == slow)
+				return true;
+		}
+
+		return false;
+	}
+
+	void modifyLink(int targetNodeIndex, int newLinkNodeIndex) { // 3번 항목을 위한 함수
+		Node* target = head;
+		for (int i = 0; i < targetNodeIndex; i++) {
+			target = target->link;
+		}
+
+		Node* newLink = head;
+		for (int i = 0; i < newLinkNodeIndex; i++) {
+			newLink = newLink->link;
+		}
+
+		target->link = newLink;
 	}
 };
 
 int main() {
-	
+	/* 2번 */
+
+	LinkedList list1;
+	for (int i = 1; i <= 5; i++) list1.insertLast(i * 10);
+
+	cout << endl << "- List 1 -" << endl << endl;
+	list1.printList();
+
+	/* 3번 */
+
+	LinkedList list2;
+	for (int i = 1; i <= 5; i++) list2.insertLast(i * 10);
+
+	cout << endl << "- List 2 -" << endl << endl;
+	list2.modifyLink(4, 1);
+	list2.printList();
+
+	/* 4번 */
+
+	cout << endl << "List 1 : ";
+	if (list1.hasCycle()) cout << "Cycle Found" << endl;
+	else cout << "No Cycle" << endl;
+
+	cout << endl << "List 2 : ";
+	if (list2.hasCycle()) cout << "Cycle Found" << endl;
+	else cout << "No Cycle" << endl;
 }
