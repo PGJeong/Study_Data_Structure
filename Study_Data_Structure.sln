@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Queue - Implementation of Q
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Linked List - Detect Cycle in Linked List", "Linked List - Detect Cycle in Linked List\Linked List - Detect Cycle in Linked List.vcxproj", "{AAB16054-2D5A-4CBB-A173-2A0CCF8B71E7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heap - Huffman Code", "Heap - Huffman Code\Heap - Huffman Code.vcxproj", "{2375EEFA-DEB8-4844-AE9D-E7C376951B03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{AAB16054-2D5A-4CBB-A173-2A0CCF8B71E7}.Release|x64.Build.0 = Release|x64
 		{AAB16054-2D5A-4CBB-A173-2A0CCF8B71E7}.Release|x86.ActiveCfg = Release|Win32
 		{AAB16054-2D5A-4CBB-A173-2A0CCF8B71E7}.Release|x86.Build.0 = Release|Win32
+		{2375EEFA-DEB8-4844-AE9D-E7C376951B03}.Debug|x64.ActiveCfg = Debug|x64
+		{2375EEFA-DEB8-4844-AE9D-E7C376951B03}.Debug|x64.Build.0 = Debug|x64
+		{2375EEFA-DEB8-4844-AE9D-E7C376951B03}.Debug|x86.ActiveCfg = Debug|Win32
+		{2375EEFA-DEB8-4844-AE9D-E7C376951B03}.Debug|x86.Build.0 = Debug|Win32
+		{2375EEFA-DEB8-4844-AE9D-E7C376951B03}.Release|x64.ActiveCfg = Release|x64
+		{2375EEFA-DEB8-4844-AE9D-E7C376951B03}.Release|x64.Build.0 = Release|x64
+		{2375EEFA-DEB8-4844-AE9D-E7C376951B03}.Release|x86.ActiveCfg = Release|Win32
+		{2375EEFA-DEB8-4844-AE9D-E7C376951B03}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
