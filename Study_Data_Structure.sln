@@ -13,6 +13,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Linked List - Detect Cycle 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heap - Huffman Code", "Heap - Huffman Code\Heap - Huffman Code.vcxproj", "{2375EEFA-DEB8-4844-AE9D-E7C376951B03}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graph - Prim Algorithm", "Graph - Prim Algorithm\Graph - Prim Algorithm.vcxproj", "{C92DAF59-8F0D-472B-8DEC-CF283E1CF30C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graph - Dijkstra Algorithm", "Graph - Dijkstra Algorithm\Graph - Dijkstra Algorithm.vcxproj", "{9FB97860-4897-4CED-8BF5-DD5EC8F2F576}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +65,22 @@ Global
 		{2375EEFA-DEB8-4844-AE9D-E7C376951B03}.Release|x64.Build.0 = Release|x64
 		{2375EEFA-DEB8-4844-AE9D-E7C376951B03}.Release|x86.ActiveCfg = Release|Win32
 		{2375EEFA-DEB8-4844-AE9D-E7C376951B03}.Release|x86.Build.0 = Release|Win32
+		{C92DAF59-8F0D-472B-8DEC-CF283E1CF30C}.Debug|x64.ActiveCfg = Debug|x64
+		{C92DAF59-8F0D-472B-8DEC-CF283E1CF30C}.Debug|x64.Build.0 = Debug|x64
+		{C92DAF59-8F0D-472B-8DEC-CF283E1CF30C}.Debug|x86.ActiveCfg = Debug|Win32
+		{C92DAF59-8F0D-472B-8DEC-CF283E1CF30C}.Debug|x86.Build.0 = Debug|Win32
+		{C92DAF59-8F0D-472B-8DEC-CF283E1CF30C}.Release|x64.ActiveCfg = Release|x64
+		{C92DAF59-8F0D-472B-8DEC-CF283E1CF30C}.Release|x64.Build.0 = Release|x64
+		{C92DAF59-8F0D-472B-8DEC-CF283E1CF30C}.Release|x86.ActiveCfg = Release|Win32
+		{C92DAF59-8F0D-472B-8DEC-CF283E1CF30C}.Release|x86.Build.0 = Release|Win32
+		{9FB97860-4897-4CED-8BF5-DD5EC8F2F576}.Debug|x64.ActiveCfg = Debug|x64
+		{9FB97860-4897-4CED-8BF5-DD5EC8F2F576}.Debug|x64.Build.0 = Debug|x64
+		{9FB97860-4897-4CED-8BF5-DD5EC8F2F576}.Debug|x86.ActiveCfg = Debug|Win32
+		{9FB97860-4897-4CED-8BF5-DD5EC8F2F576}.Debug|x86.Build.0 = Debug|Win32
+		{9FB97860-4897-4CED-8BF5-DD5EC8F2F576}.Release|x64.ActiveCfg = Release|x64
+		{9FB97860-4897-4CED-8BF5-DD5EC8F2F576}.Release|x64.Build.0 = Release|x64
+		{9FB97860-4897-4CED-8BF5-DD5EC8F2F576}.Release|x86.ActiveCfg = Release|Win32
+		{9FB97860-4897-4CED-8BF5-DD5EC8F2F576}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
