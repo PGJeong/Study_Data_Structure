@@ -3,7 +3,7 @@ using namespace std;
 
 template <class T>
 class GenericStack { // 제네릭 스택
-private:
+public:
 	int size; // 스택 크기
 	T* data; // 스택 요소(element)
 	int top; // 스택 상단 인덱스(stack top)
